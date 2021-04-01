@@ -1,0 +1,33 @@
+/* .container{
+    display: flex;
+    justify-content:space-around ;
+    margin: 2rem;
+    text-align: center;  
+    padding-top: 1.5rem; 
+}
+
+#footer{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+}
+
+#copyrights{
+    text-align: center;
+    background-color: rgb(44, 43, 40);
+    padding-top: 1.5rem;
+}
+
+section{
+    background-color: darkgray;
+    color: aliceblue;
+} */
+
+#rodape{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    padding-top: 4vw;
+}
