@@ -1,0 +1,16 @@
+.card-format {
+    max-width: 400px;
+    margin: 20px;
+    vertical-align: middle;
+}
+.cards-cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+  
+a {
+    text-decoration: none;
+    color: black;
+}

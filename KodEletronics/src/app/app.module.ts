@@ -16,6 +16,14 @@ import { ManutencaoComponent } from './manutencao/manutencao.component';
 import { ContatoComponent } from './contato/contato.component';
 import { LoginComponent } from './login/login.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
+import {MatCardModule} from '@angular/material/card';
+import { NavegacaoComponent } from './navegacao/navegacao.component';
+import { CelularesComponent } from './produto/celulares/celulares.component';
+import { TabletsComponent } from './produto/tablets/tablets.component';
+import { ComputadoresComponent } from './produto/computadores/computadores.component';
+import { EletrodomesticosComponent } from './produto/eletrodomesticos/eletrodomesticos.component';
+import { CategoriaProdutosComponent } from './navegacao/categoria-produtos/categoria-produtos.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -27,7 +35,13 @@ import { CarrinhoComponent } from './carrinho/carrinho.component';
     ManutencaoComponent,
     ContatoComponent,
     LoginComponent,
-    CarrinhoComponent
+    CarrinhoComponent,
+    NavegacaoComponent,
+    CelularesComponent,
+    TabletsComponent,
+    ComputadoresComponent,
+    EletrodomesticosComponent,
+    CategoriaProdutosComponent
     
   ],
   imports: [
@@ -38,7 +52,9 @@ import { CarrinhoComponent } from './carrinho/carrinho.component';
     MatToolbarModule,
     MatIconModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

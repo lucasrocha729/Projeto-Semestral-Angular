@@ -2,7 +2,6 @@
     max-width: 400px;
     margin: 20px;
     vertical-align: bottom;
-    background-color: white;
   }
   
   .card-header-image {
@@ -11,15 +10,13 @@
     
   }
   
-  .cards-cardapio {
+.cards-cardapio {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: aliceblue;
-    
-  }
+}
   
-  .card-actions{
+.card-actions{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;

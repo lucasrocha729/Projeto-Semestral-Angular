@@ -1,22 +1,10 @@
-.flex-container{
-    display: flex;
-    justify-content: center;
+.mat-toolbar{
+    background-color: #144B61;
 }
 
-mat-toolbar{
-    background-color: rgb(17, 243, 168);
-}
-
-#menu-principal{
-    color: aliceblue;
-}
-
-#sub-menu {
-    padding-right: 2rem;
+a{
     text-decoration: none;
-    color: aliceblue;
-}
-
-#sub-menu:hover{
-    color: black;
+    color: white;
+    padding-right: 20px;
+    font-size: large;
 }
