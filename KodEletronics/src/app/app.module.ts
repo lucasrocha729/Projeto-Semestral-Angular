@@ -24,6 +24,8 @@ import { ComputadoresComponent } from './produto/computadores/computadores.compo
 import { EletrodomesticosComponent } from './produto/eletrodomesticos/eletrodomesticos.component';
 import { CategoriaProdutosComponent } from './navegacao/categoria-produtos/categoria-produtos.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { ComprarComponent } from './comprar/comprar.component';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     TabletsComponent,
     ComputadoresComponent,
     EletrodomesticosComponent,
-    CategoriaProdutosComponent
+    CategoriaProdutosComponent,
+    ComprarComponent
     
   ],
   imports: [
@@ -54,7 +57,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatDividerModule,
     MatListModule,
     MatCardModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

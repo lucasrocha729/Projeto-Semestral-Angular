@@ -13,7 +13,7 @@
       </mat-card-content>
       <mat-card-actions class="card-actions">
         <h3 class="preco">{{produto.price | currency: 'BRL' }}</h3>
-        <button mat-button>COMPRAR</button>
+        <app-comprar [produto]="produto" (acaoClick)="AddCarrinho($event)"></app-comprar>
       </mat-card-actions>
     </mat-card>
 </section>

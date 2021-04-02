@@ -1,0 +1,15 @@
+.btnComprar {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    background: #144B61;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  
