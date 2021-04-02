@@ -1,2 +1,2 @@
 # Projeto-Semestral-Angular
-Projeto que será desenvolvido pelo professor e replicado para conhecimento dos fundamentos em angular
+Projeto que será desenvolvido como trabalho semestral na matéria de Desenvolvimento Web Avançado.
