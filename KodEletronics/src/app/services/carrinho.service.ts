@@ -14,8 +14,8 @@ export class CarrinhoService {
 
   addCar(produto:Produto){
     this.itens.push(produto);
-    this.valorTotal = this.valorTotal + produto.price;
-    console.log(this.valorTotal)
+    // this.valorTotal = this.valorTotal + produto.price;
+    // console.log(this.valorTotal)
     
   }
   listarItens(){

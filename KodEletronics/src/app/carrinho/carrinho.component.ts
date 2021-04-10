@@ -18,9 +18,10 @@ export class CarrinhoComponent implements OnInit {
 
 
   ngOnInit(): void {
+    for(let i = 0; i<this.produtos.length;i++){
+      this.valorTotal += this.produtos[i].price
+    }
 
-    console.log('R$ ' + this.valorTotal)
-    this.valorTotal
   }
 
   produtos: Produto[];
