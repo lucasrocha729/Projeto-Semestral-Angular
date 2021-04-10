@@ -5,4 +5,5 @@ export interface Produto{
     price : number,
     description: string,
     picture: string
+    
 }

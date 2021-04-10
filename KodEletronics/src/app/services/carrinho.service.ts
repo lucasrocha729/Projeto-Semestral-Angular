@@ -16,21 +16,21 @@ export class CarrinhoService {
     this.itens.push(produto);
     this.valorTotal = this.valorTotal + produto.price;
     console.log(this.valorTotal)
+    
   }
   listarItens(){
     return this.itens;
   }
 
-  deleteItem(produto : Produto){
-
-
-    this.valorTotal = this.valorTotal + produto.price;
-    console.log(this.valorTotal)
-  }
+  // deleteItem(produto : Produto){
+  //   this.valorTotal = this.valorTotal + produto.price;
+  //   console.log(this.valorTotal)
+  // }
 
   limparCar(){
     this.itens = [];
     return this.itens;
   }
+
 
 }
