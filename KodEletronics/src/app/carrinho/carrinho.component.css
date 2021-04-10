@@ -1,4 +1,25 @@
-table {
+.table {
     width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 17rem;
+    height: 100%;
+}
 
+.headerTable{
+    text-align: center;
+    margin-top: 0.2rem !important;
+}
+
+#total{
+    font-weight: bolder;
+    text-align: center;
+    border-top: double 2px #144B61;
+}
+
+.itensTabela{
+    width: 100%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding: 0.2rem;
+    text-align: center;
 }

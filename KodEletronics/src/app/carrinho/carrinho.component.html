@@ -1,25 +1,24 @@
 <div class="container">
-  <table border=1 class="table">
-    <tr>
+  <table class="table" >
+    <tr class="headerTable">
       <th>Nome</th>
       <th>Descrição</th>
       <th>Preço</th>
       <th></th>
     </tr>
-    <tr *ngFor="let produtos of produtos">
+    <tr *ngFor="let produtos of produtos" class="itensTabela">
       <!--each row id == id-->
       <td>{{ produtos.name }}</td>
       <td>{{ produtos.description }}</td>
       <td>{{ produtos.price | currency:'BRL'}}</td>
-      <button id="remove" (click)="deleteRow(produtos.id)">DELETE ROW</button>
-      <td></td>
+      <td><button class="btn" id="remover" (click)="deleteRow(produtos.id)"><i class="fa fa-trash"></i></button></td>
 
     </tr>
-    <tr>
+    <span></span>
+    <tr id="total">
+      <td>Total:</td>
       <td></td>
-      <td></td>
-      <td>Total: {{valorTotal | currency:'BRL'}}</td>
-      <!-- <td>Total</td> -->
+      <td>{{valorTotal | currency:'BRL'}}</td>
     </tr>
   </table>
 </div>
