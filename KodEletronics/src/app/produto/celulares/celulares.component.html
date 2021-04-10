@@ -1,4 +1,4 @@
-<app-categoria-produtos></app-categoria-produtos>
+<!-- <app-categoria-produtos></app-categoria-produtos>
 <section class="cards-cardapio">
     <mat-card-content  card-cardapio *ngFor="let produto of produtos">
         <mat-card  *ngIf="produto.classificacao=='celulares'">
@@ -18,4 +18,25 @@
             </mat-card-actions>
         </mat-card>
     </mat-card-content>
+</section> -->
+
+<app-categoria-produtos></app-categoria-produtos>
+<section class="cards-cardapio"*ngFor="let produto of produtos">
+    <mat-card class="card-cardapio"  *ngIf="produto.classificacao=='celulares'">
+      <mat-card-header>
+        <div mat-card-avatar class="card-header-image"></div>
+        <mat-card-title>{{ produto.name }}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="{{ produto.picture }}" alt="Foto do produto">
+      <mat-card-content>
+        <p>
+          {{ produto.description }}  
+        </p>
+      </mat-card-content>
+      <mat-card-actions class="card-actions">
+        <h3 class="preco">{{produto.price | currency: 'BRL' }}</h3>
+        <app-comprar [produto]="produto" (acaoClick)="AddCarrinho($event)"></app-comprar>
+      </mat-card-actions>
+    </mat-card>
 </section>
+  
