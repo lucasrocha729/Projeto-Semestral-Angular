@@ -1,7 +1,9 @@
 .card-cardapio {
   max-width: 400px;
-  margin: 20px;
+  margin: 60px;
   vertical-align: bottom;
+  align-items: center;
+  
 }
 
 .card-header-image {
@@ -11,9 +13,10 @@
 }
 
 .cards-cardapio {
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .card-actions{
@@ -25,7 +28,7 @@
   
 .preco {
   margin: 0;
-  color: #cf0707;
+  color: black;
   font-weight: bold;
   font-size: 15px;
   vertical-align: middle;
