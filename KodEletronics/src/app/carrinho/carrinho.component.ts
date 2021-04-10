@@ -11,12 +11,18 @@ export class CarrinhoComponent implements OnInit {
 
   constructor( private carrinho:CarrinhoService) { 
     this.produtos = carrinho.itens;
+    this.valorTotal = carrinho.valorTotal;
+    console.log(this.produtos)
   }
 
   ngOnInit(): void {
+
+    console.log('R$ ' + this.valorTotal)
+    
   }
 
   produtos : Produto[];
-
+  valorTotal : number;
+  
   colunas: string[] = ['nome', 'descricao', 'preco'];
 }

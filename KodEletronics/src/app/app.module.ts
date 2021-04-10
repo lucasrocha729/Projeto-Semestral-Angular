@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatMenuModule } from '@angular/material/menu';
@@ -26,6 +27,7 @@ import { CategoriaProdutosComponent } from './navegacao/categoria-produtos/categ
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { ComprarComponent } from './comprar/comprar.component';
 import {MatTableModule} from '@angular/material/table';
+
 
 @NgModule({
   declarations: [
@@ -58,7 +60,8 @@ import {MatTableModule} from '@angular/material/table';
     MatListModule,
     MatCardModule,
     MatFormFieldModule,
-    MatTableModule
+    MatTableModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
