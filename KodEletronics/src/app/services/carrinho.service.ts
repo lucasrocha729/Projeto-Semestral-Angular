@@ -22,9 +22,8 @@ export class CarrinhoService {
   }
 
   deleteItem(produto : Produto){
-    let i=0;
 
-    produto.id
+
     this.valorTotal = this.valorTotal + produto.price;
     console.log(this.valorTotal)
   }
