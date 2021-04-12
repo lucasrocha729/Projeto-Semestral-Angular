@@ -2,18 +2,17 @@
     <h2>Contate-nos</h2>
     <form>
       <div class="user-box">
-        <input type="text" name="" required="">
+        <input type="text" name="" required="" id="nameText">
         <label>Nome</label>
       </div>
       <div class="user-box">
-        <input type="E-mail" name="" required="">
+        <input type="E-mail" name="" required="" id="emailText">
         <label>E-mail</label>
       </div>
       <div class="user-box">
-        <textarea rows="5" cols="30" placeholder="Digite sua mensagem aqui!">
-        </textarea>
+        <textarea rows="5" cols="30" placeholder="Digite sua mensagem aqui!" id="contactText" ></textarea>
       </div>
-      <a href="#">
+      <a  (click)="getContact()">
         <span></span>
         <span></span>
         <span></span>
@@ -22,4 +21,3 @@
       </a>
     </form>
 </section>
-  
