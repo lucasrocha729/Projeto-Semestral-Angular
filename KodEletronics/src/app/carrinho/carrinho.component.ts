@@ -2,6 +2,7 @@ import { splitClasses } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { Produto } from '../models/produtoModel';
 import { CarrinhoService } from '../services/carrinho.service';
+import { ProdutoService } from '../services/produto.service';
 
 @Component({
   selector: 'app-carrinho',
@@ -10,9 +11,11 @@ import { CarrinhoService } from '../services/carrinho.service';
 })
 export class CarrinhoComponent implements OnInit {
 
+  compra : Produto[]
   constructor(private carrinho: CarrinhoService) {
     this.produtos = carrinho.itens;
     this.valorTotal = carrinho.valorTotal;
+    this.compra = {} as Produto[]
     console.log(this.produtos);
   }
 
@@ -48,10 +51,14 @@ export class CarrinhoComponent implements OnInit {
     }
     this.valorTotal = totalCarrinho;
     // console.log(this.produtos)
-
   }
 
-
+  finalizarCompra(){
+    // let i =0
+    this.carrinho.salvar(this.produtos).subscribe(() => {
+      console.log("produto Salvo");
+    })
+  }
 
 
 

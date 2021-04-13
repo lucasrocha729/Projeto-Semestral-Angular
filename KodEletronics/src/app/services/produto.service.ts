@@ -27,4 +27,9 @@ export class ProdutoService {
     const path = `${this.url}/${id}`
     return this.http.get<Produto>(path);
   }
+
+  atualizar(product: Produto): Observable<Produto>{
+    const path = `${this.url}/${product.id}`;
+    return this.http.put<Produto>(path, product)
+  }
 }

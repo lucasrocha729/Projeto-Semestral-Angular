@@ -225,6 +225,70 @@
       "email": "321",
       "mensagem": "321",
       "id": 4
+    },
+    {
+      "nome": "231",
+      "email": "231",
+      "mensagem": "231",
+      "id": 5
     }
+  ],
+  "compras": [
+    {
+      "id": 1,
+      "produtos": []
+    },
+    [
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 2,
+        "name": "iPhone XR",
+        "price": 3499,
+        "description": "iPhone XR Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphoneXR.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 3,
+        "name": "iPhone 12",
+        "price": 7990,
+        "description": "iPhone 12 Pro 128GB - Grafite ",
+        "picture": "../assets/img/portfolio/iphone12.jpg"
+      }
+    ],
+    [
+      {
+        "classificacao": "tablets",
+        "id": 14,
+        "name": "Xiaomi Mipad Mi",
+        "price": 1130,
+        "description": "Xiaomi Mipad Mi Pad 3 7.9 Tablet PC MIUI 8 64 4GB de RAM GB ROM  MT8176 hexa Núcleo 2.1GHz 6600mAh ",
+        "picture": "../assets/img/portfolio/tablet6.jpg"
+      },
+      {
+        "classificacao": "tablets",
+        "id": 13,
+        "name": "Xiaomi Mipad Mi Pad 4",
+        "price": 1080,
+        "description": "Xiaomi Mipad Mi Pad 4 Snapdragon 660 GB 64 AIE 4GB Tablet Android PC",
+        "picture": "../assets/img/portfolio/tablet5.jpg"
+      },
+      {
+        "classificacao": "computadores",
+        "id": 15,
+        "name": "Notebook Gamer Lenovo",
+        "price": 4900,
+        "description": "Notebook Lenovo L340 Intel Core i5 - 8GB 256SSD 15,6, Nvidia GTX1050",
+        "picture": "../assets/img/portfolio/computador1.jpg"
+      }
+    ]
   ]
 }

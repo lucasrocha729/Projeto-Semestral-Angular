@@ -1,5 +1,8 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core'
 import { Produto } from '../models/produtoModel'
+import { Observable } from 'rxjs'
+import { HttpClient } from '@angular/common/http'
+
 @Injectable({
   providedIn: 'root'
 })
@@ -7,10 +10,10 @@ export class CarrinhoService {
   itens : Produto[];
   valorTotal = 0;
   
-  constructor() { 
+  constructor( private http: HttpClient ) { 
     this.itens=[]
-    var valorTotal 
   }
+  url = "http://localhost:3001/compras"
 
   addCar(produto:Produto){
     this.itens.push(produto);
@@ -31,6 +34,8 @@ export class CarrinhoService {
     this.itens = [];
     return this.itens;
   }
-
+  salvar(produto: Produto[]): Observable<Produto[]> {
+    return this.http.post<Produto[]>(this.url, produto)
+  }
 
 }
