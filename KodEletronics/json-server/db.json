@@ -289,6 +289,60 @@
         "description": "Notebook Lenovo L340 Intel Core i5 - 8GB 256SSD 15,6, Nvidia GTX1050",
         "picture": "../assets/img/portfolio/computador1.jpg"
       }
+    ],
+    [
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      }
+    ],
+    [
+      {
+        "classificacao": "celulares",
+        "id": 2,
+        "name": "iPhone XR",
+        "price": 3499,
+        "description": "iPhone XR Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphoneXR.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 2,
+        "name": "iPhone XR",
+        "price": 3499,
+        "description": "iPhone XR Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphoneXR.jpg"
+      }
+    ],
+    [
+      {
+        "classificacao": "celulares",
+        "id": 2,
+        "name": "iPhone XR",
+        "price": 3499,
+        "description": "iPhone XR Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphoneXR.jpg"
+      }
     ]
   ]
 }
