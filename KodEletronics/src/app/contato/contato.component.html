@@ -1,23 +1,24 @@
 <section class="contato-box">
-    <h2>Contate-nos</h2>
-    <form>
-      <div class="user-box">
-        <input type="text" name="" required="" id="nameText">
-        <label>Nome</label>
-      </div>
-      <div class="user-box">
-        <input type="E-mail" name="" required="" id="emailText">
-        <label>E-mail</label>
-      </div>
-      <div class="user-box">
-        <textarea rows="5" cols="30" placeholder="Digite sua mensagem aqui!" id="contactText" ></textarea>
-      </div>
-      <a  (click)="getContact()">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Enviar
-      </a>
-    </form>
+  <h2>Contate-nos</h2>
+  <form>
+    <div class="user-box">
+      <input type="text" name="" required="" id="nameText">
+      <label>Nome</label>
+    </div>
+    <div class="user-box">
+      <input type="E-mail" name="" required="" id="emailText">
+      <label>E-mail</label>
+    </div>
+    <div class="user-box">
+      <textarea rows="5" cols="30" placeholder="Digite sua mensagem aqui!" id="contactText"></textarea>
+    </div>
+    <a (click)="getContact(contato)">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Enviar
+    </a>
+
+  </form>
 </section>
