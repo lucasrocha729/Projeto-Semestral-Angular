@@ -1,8 +1,8 @@
 import { Component, ComponentFactoryResolver, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 // import { Observable } from 'rxjs';
-import { ContatoService } from '../services/contato.service';
-import { Contato } from '../models/contatoModel'
+import { ContatoService } from '../../services/contato.service';
+import { Contato } from '../../models/contatoModel'
 // import { Observable } from 'rxjs/internal/observable'
 
 

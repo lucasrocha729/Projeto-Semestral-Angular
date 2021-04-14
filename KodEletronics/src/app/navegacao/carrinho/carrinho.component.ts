@@ -1,8 +1,8 @@
 import { splitClasses } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { Produto } from '../models/produtoModel';
-import { CarrinhoService } from '../services/carrinho.service';
-import { ProdutoService } from '../services/produto.service';
+import { Produto } from '../../models/produtoModel';
+import { CarrinhoService } from '../../services/carrinho.service';
+import { ProdutoService } from '../../services/produto.service';
 
 @Component({
   selector: 'app-carrinho',
@@ -57,6 +57,7 @@ export class CarrinhoComponent implements OnInit {
     // let i =0
     this.carrinho.salvar(this.produtos).subscribe(() => {
       console.log("produto Salvo");
+      alert('Compra finalizada!!')
     })
   }
 
