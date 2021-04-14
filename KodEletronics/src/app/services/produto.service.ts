@@ -32,4 +32,9 @@ export class ProdutoService {
     const path = `${this.url}/${product.id}`;
     return this.http.put<Produto>(path, product)
   }
+
+  excluir(id:number) : Observable<Produto>{
+    const path = `${this.url}/${id}`;
+    return this.http.delete<Produto>(path)
+  }
 }

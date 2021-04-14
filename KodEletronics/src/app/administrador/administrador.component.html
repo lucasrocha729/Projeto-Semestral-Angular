@@ -1,0 +1,26 @@
+<button mat-button class="btnNovoProduto" routerLink="/criarProduto">Criar um novo produto</button>
+
+<div class="container">
+    <table class="table" >
+      <tr class="headerTable">
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Descrição</th>
+        <th>Preço</th>
+        <th>Deletar</th>
+        <th>Editar</th>
+      </tr>
+      <tr *ngFor="let produtos of produtos" class="itensTabela">
+        <td>{{ produtos.id }}</td>
+        <td>{{ produtos.name }}</td>
+        <td>{{ produtos.description }}</td>
+        <td>{{ produtos.price | currency:'BRL'}}</td>
+        <td><button class="btn" id="remover"(click)="deletarProduto(produtos.id)" ><i class="fa fa-trash"></i></button></td>
+        <td><button class="btn" id="editar" routerLink="/administrador/atualizarProduto/{{produtos.id}}" (click)="editarProduto()"><i class="fa fa-edit"></i></button></td>
+      </tr>
+      <span></span>
+    </table>
+  
+  </div>
+  
+

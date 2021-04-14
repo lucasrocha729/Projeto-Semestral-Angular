@@ -1,0 +1,22 @@
+    <h2>Criar produto</h2>
+    <section id="atualizarItens">
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="classificacao" id="classificacao" [(ngModel)]="produto.classificacao" name="classificacao">
+            </mat-form-field><br>
+            <mat-form-field>
+                <input matInput placeholder="nome" id="nome" [(ngModel)]="produto.name" name="nome">
+            </mat-form-field><br>
+            <mat-form-field>
+                <input matInput placeholder="preco"  id="preco"[(ngModel)]="produto.price" name="preco">
+            </mat-form-field><br>
+            <mat-form-field>
+                <input matInput placeholder="descricao" id="descricao" [(ngModel)]="produto.description" name="descricao">
+            </mat-form-field><br>
+            <mat-form-field>
+                <input matInput placeholder="Caminho imagem" id="imagem" [(ngModel)]="produto.picture" name="Imagem">
+            </mat-form-field>
+        </form>
+        <button class="btn" id="atualizar" (click)="criarProduto()">Criar</button>
+    </section>
+    

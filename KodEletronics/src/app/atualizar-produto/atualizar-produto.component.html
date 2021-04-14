@@ -1,0 +1,17 @@
+
+    <h2>Atualizar produto</h2>
+<section id="atualizarItens">
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="nome" [(ngModel)]="produto.name" name="nome">
+        </mat-form-field><br>
+        <mat-form-field>
+            <input matInput placeholder="preco" [(ngModel)]="produto.price" name="preco">
+        </mat-form-field><br>
+        <mat-form-field>
+            <input matInput placeholder="descricao" [(ngModel)]="produto.description" name="descricao">
+        </mat-form-field>
+    </form>
+    <button class="btn" id="atualizar" (click)="atualizarProduto()">Atualizar</button>
+</section>
+

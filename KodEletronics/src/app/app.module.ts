@@ -27,6 +27,11 @@ import { CategoriaProdutosComponent } from './navegacao/categoria-produtos/categ
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { ComprarComponent } from './comprar/comprar.component';
 import {MatTableModule} from '@angular/material/table';
+import { AdministradorComponent } from './administrador/administrador.component';
+import { AtualizarProdutoComponent } from './atualizar-produto/atualizar-produto.component';
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule }   from '@angular/forms';
+import { CriarProdutoComponent } from './criar-produto/criar-produto.component';
 
 
 @NgModule({
@@ -46,7 +51,10 @@ import {MatTableModule} from '@angular/material/table';
     ComputadoresComponent,
     EletrodomesticosComponent,
     CategoriaProdutosComponent,
-    ComprarComponent
+    ComprarComponent,
+    AdministradorComponent,
+    AtualizarProdutoComponent,
+    CriarProdutoComponent
     
   ],
   imports: [
@@ -61,7 +69,9 @@ import {MatTableModule} from '@angular/material/table';
     MatCardModule,
     MatFormFieldModule,
     MatTableModule,
-    HttpClientModule
+    HttpClientModule,
+    MatInputModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,10 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AdministradorComponent } from './administrador/administrador.component';
+import { AtualizarProdutoComponent } from './atualizar-produto/atualizar-produto.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { ContatoComponent } from './contato/contato.component';
+import { CriarProdutoComponent } from './criar-produto/criar-produto.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
@@ -25,7 +28,10 @@ const routes: Routes = [
   {path: 'celulares', component: CelularesComponent},
   {path: 'tablets', component:TabletsComponent},
   {path: 'computadores', component: ComputadoresComponent},
-  {path: 'eletrodomesticos', component: EletrodomesticosComponent}
+  {path: 'eletrodomesticos', component: EletrodomesticosComponent},
+  {path: 'administrador', component: AdministradorComponent},
+  {path: 'administrador/atualizarProduto/:id', component: AtualizarProdutoComponent},
+  {path: 'criarProduto', component:CriarProdutoComponent }
 ];
 
 @NgModule({

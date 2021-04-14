@@ -4,7 +4,7 @@
       "classificacao": "celulares",
       "id": 1,
       "name": "iPhone 11",
-      "price": 4290,
+      "price": "4250",
       "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
       "picture": "../assets/img/portfolio/iphone11.jpg"
     },
@@ -187,18 +187,42 @@
     {
       "classificacao": "eletrodomesticos",
       "id": 24,
-      "name": "Batedeira Philips Walita Daily",
-      "price": 160,
-      "description": "Batedeira Philips Walita Daily, 250W, 220V, Preto - RI7000/90",
+      "name": "aaa",
+      "price": "1600",
+      "description": "vvv",
       "picture": "../assets/img/portfolio/batedeira1.jpg"
     },
     {
-      "classificacao": "eletrodomesticos",
-      "id": 25,
-      "name": "Mixer Philco",
-      "price": 199,
-      "description": "Mixer Philco Maxxfit Spiralizer 350W, 3 Acessórios, 220V, Preto",
-      "picture": "../assets/img/portfolio/mixer1.jpg"
+      "classificacao": "sadasd",
+      "id": 26,
+      "name": "teste",
+      "price": 25,
+      "description": "Funciona",
+      "picture": "sajkdhiuasdh"
+    },
+    {
+      "classificacao": "sfdsf",
+      "name": "dsfds",
+      "price": 15,
+      "description": "sdf",
+      "picture": "sdfdsfdsf",
+      "id": 27
+    },
+    {
+      "classificacao": "sdfsdf",
+      "name": "dsfdsf",
+      "price": 23,
+      "description": "dsfdsf",
+      "picture": "../assets/img/portfolio/iphone11.jpg",
+      "id": 28
+    },
+    {
+      "classificacao": "celulares",
+      "name": "asdas",
+      "price": 15,
+      "description": "adsa",
+      "picture": "../assets/img/portfolio/iphone11.jpg",
+      "id": 29
     }
   ],
   "contact": [
@@ -231,6 +255,24 @@
       "email": "231",
       "mensagem": "231",
       "id": 5
+    },
+    {
+      "nome": "",
+      "email": "",
+      "mensagem": "",
+      "id": 6
+    },
+    {
+      "nome": "",
+      "email": "",
+      "mensagem": "",
+      "id": 7
+    },
+    {
+      "nome": "",
+      "email": "",
+      "mensagem": "",
+      "id": 8
     }
   ],
   "compras": [
@@ -342,6 +384,48 @@
         "price": 3499,
         "description": "iPhone XR Apple 64GB Preto 6,1” 12MP iOS",
         "picture": "../assets/img/portfolio/iphoneXR.jpg"
+      }
+    ],
+    [
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      },
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
       }
     ]
   ]
