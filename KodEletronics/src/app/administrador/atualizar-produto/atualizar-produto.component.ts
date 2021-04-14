@@ -23,6 +23,7 @@ export class AtualizarProdutoComponent implements OnInit {
   }
 
   atualizarProduto(){
+    this.produto.price = Number(this.produto.price)
     this.produtoService.atualizar(this.produto).subscribe(()=>{
     this.router.navigate(["/produto"])  
     })

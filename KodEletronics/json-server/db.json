@@ -196,7 +196,7 @@
       "classificacao": "eletrodomesticos",
       "id": 25,
       "name": "Mixer Philco",
-      "price": 199,
+      "price": 1900,
       "description": "Mixer Philco Maxxfit Spiralizer 350W, 3 Acessórios, 220V, Preto",
       "picture": "../assets/img/portfolio/mixer1.jpg"
     }
@@ -213,6 +213,12 @@
       "email": "lucasrocha_22@hotmail.com",
       "mensagem": "Teste envio para JSON",
       "id": 2
+    },
+    {
+      "nome": "Apresentação",
+      "email": "AA@gmail.com",
+      "mensagem": "asdasd",
+      "id": 3
     }
   ],
   "compras": [
@@ -255,6 +261,16 @@
         "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
         "picture": "../assets/img/portfolio/iphone11.jpg"
       },
+      {
+        "classificacao": "celulares",
+        "id": 1,
+        "name": "iPhone 11",
+        "price": 4290,
+        "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+        "picture": "../assets/img/portfolio/iphone11.jpg"
+      }
+    ],
+    [
       {
         "classificacao": "celulares",
         "id": 1,
