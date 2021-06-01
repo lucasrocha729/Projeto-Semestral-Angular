@@ -13,7 +13,7 @@ export class CarrinhoService {
   constructor( private http: HttpClient ) { 
     this.itens=[]
   }
-  url = "http://localhost:3001/compras"
+  url = "http://localhost:3000/buy"
 
   addCar(produto:Produto){
     this.itens.push(produto);

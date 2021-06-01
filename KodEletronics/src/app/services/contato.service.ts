@@ -10,7 +10,7 @@ import { Contato } from '../models/contatoModel';
 export class ContatoService {
 
   constructor(private http: HttpClient) { }
-  url = "http://localhost:3001/contact"
+  url = "http://localhost:3000/contact"
 
   listar(): Observable<Contato[]> {
     return this.http.get<Contato[]>(this.url);

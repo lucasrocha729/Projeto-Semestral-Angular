@@ -10,7 +10,7 @@ import { Produto } from '../models/produtoModel';
 export class ProdutoService {
 
   constructor(private http: HttpClient) { }
-  url = "http://localhost:3001/products";
+  url = "http://localhost:3000/products";
 
 
   criar (product : Produto): Observable <Produto>{
