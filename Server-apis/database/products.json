@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
       "classificacao": "celulares",
@@ -199,4 +200,207 @@
       "description": "Mixer Philco Maxxfit Spiralizer 350W, 3 Acessórios, 220V, Preto",
       "picture": "../assets/img/portfolio/mixer1.jpg"
     }
+=======
+[
+    {
+      "classificacao": "celulares",
+      "id": 1,
+      "name": "iPhone 11",
+      "price": 4290,
+      "description": "iPhone 11 Apple 64GB Preto 6,1” 12MP iOS",
+      "picture": "../assets/img/portfolio/iphone11.jpg"
+    },
+    {
+      "classificacao": "celulares",
+      "id": 2,
+      "name": "iPhone XR",
+      "price": 3499,
+      "description": "iPhone XR Apple 64GB Preto 6,1” 12MP iOS",
+      "picture": "../assets/img/portfolio/iphoneXR.jpg"
+    },
+    {
+      "classificacao": "celulares",
+      "id": 3,
+      "name": "iPhone 12",
+      "price": 7990,
+      "description": "iPhone 12 Pro 128GB - Grafite ",
+      "picture": "../assets/img/portfolio/iphone12.jpg"
+    },
+    {
+      "classificacao": "celulares",
+      "id": 4,
+      "name": "iPhone 6",
+      "price": 2150,
+      "description": "iPhone 6s 64GB Tela 4.7 iOS 9 12MP - IOS",
+      "picture": "../assets/img/portfolio/iphone6.jpg"
+    },
+    {
+      "classificacao": "celulares",
+      "id": 5,
+      "name": "iPhone 7 Plus",
+      "price": 2150,
+      "description": "iPhone 7 Plus 32GB Vermelho 3D Touch Câmera Dupla de 12MP - Apple",
+      "picture": "../assets/img/portfolio/iphone7.jpg"
+    },
+    {
+      "classificacao": "celulares",
+      "id": 6,
+      "name": "Samsung Galaxy A21s",
+      "price": 1500,
+      "description": "Samsung A21s Branco 64GB, Câmera Quádrupla,Tela Infinita de 6.5,4GB RAM",
+      "picture": "../assets/img/portfolio/samsungA21.png"
+    },
+    {
+      "classificacao": "celulares",
+      "id": 7,
+      "name": "Samsung Galaxy A31",
+      "price": 1780,
+      "description": "Samsung Galaxy A31, 128GB, 48MP, Tela 6.4´, Preto",
+      "picture": "../assets/img/portfolio/samsungA31.jpg"
+    },
+    {
+      "classificacao": "celulares",
+      "id": 8,
+      "name": "Samsung Galaxy S10+",
+      "price": 3680,
+      "description": "Smartphone Samsung Galaxy S10+, 128GB, 16MP, Tela 6.4´, Azul",
+      "picture": "../assets/img/portfolio/samsungS10.jpg"
+    },
+    {
+      "classificacao": "tablets",
+      "id": 9,
+      "name": "iPad",
+      "price": 3100,
+      "description": "iPad Tela 10,2” 8ª Geração Apple Wi-Fi 32GB",
+      "picture": "../assets/img/portfolio/tablet1.jpg"
+    },
+    {
+      "classificacao": "tablets",
+      "id": 10,
+      "name": "iPad Air",
+      "price": 6990,
+      "description": "iPad Air 4 Apple, Tela Liquid Retina 10.9”, 256GB",
+      "picture": "../assets/img/portfolio/tablet2.jpg"
+    },
+    {
+      "classificacao": "tablets",
+      "id": 11,
+      "name": "Tablet Samsung Galaxy Tab A7",
+      "price": 1799,
+      "description": "Tablet Samsung Galaxy Tab A7 10,4”64GB - Android Octa-Core ",
+      "picture": "../assets/img/portfolio/tablet3.jpg"
+    },
+    {
+      "classificacao": "tablets",
+      "id": 12,
+      "name": "Tablet Samsung Galaxy Tab A S",
+      "price": 1799,
+      "description": "Tablet Samsung Galaxy Tab A S Pen 32GB Wi-FI 4G Tela 8 Octa-Core 1.8GHz - Preto",
+      "picture": "../assets/img/portfolio/tablet4.jpg"
+    },
+    {
+      "classificacao": "tablets",
+      "id": 13,
+      "name": "Xiaomi Mipad Mi Pad 4",
+      "price": 1080,
+      "description": "Xiaomi Mipad Mi Pad 4 Snapdragon 660 GB 64 AIE 4GB Tablet Android PC",
+      "picture": "../assets/img/portfolio/tablet5.jpg"
+    },
+    {
+      "classificacao": "tablets",
+      "id": 14,
+      "name": "Xiaomi Mipad Mi",
+      "price": 1130,
+      "description": "Xiaomi Mipad Mi Pad 3 7.9 Tablet PC MIUI 8 64 4GB de RAM GB ROM  MT8176 hexa Núcleo 2.1GHz 6600mAh ",
+      "picture": "../assets/img/portfolio/tablet6.jpg"
+    },
+    {
+      "classificacao": "computadores",
+      "id": 15,
+      "name": "Notebook Gamer Lenovo",
+      "price": 4900,
+      "description": "Notebook Lenovo L340 Intel Core i5 - 8GB 256SSD 15,6, Nvidia GTX1050",
+      "picture": "../assets/img/portfolio/computador1.jpg"
+    },
+    {
+      "classificacao": "computadores",
+      "id": 16,
+      "name": "Notebook Gamer Legion",
+      "price": 8900,
+      "description": "Legion i7-10750H 16GB 512GB SSD RTX2060 6GB Full HD",
+      "picture": "../assets/img/portfolio/computador2.jpg"
+    },
+    {
+      "classificacao": "computadores",
+      "id": 17,
+      "name": "Computador Desktop Dell",
+      "price": 5100,
+      "description": "Dell Intel Core i5 8GB 1TB Windows 10 + Monitor 21”",
+      "picture": "../assets/img/portfolio/computador3.jpg"
+    },
+    {
+      "classificacao": "computadores",
+      "id": 18,
+      "name": "Computador All in One LG",
+      "price": 3560,
+      "description": "LG 21.5” FULL HD Windows 10 Home Celeron 4GB RAM e 500GB HD",
+      "picture": "../assets/img/portfolio/computador4.jpg"
+    },
+    {
+      "classificacao": "computadores",
+      "id": 19,
+      "name": "Dell G3-3500-A40P",
+      "price": 9500,
+      "description": "Dell G3-3500-A40P Intel Core i7 - 16GB 512GB SSD 15,6” Full HD NVIDIA RTX 2060 6GB",
+      "picture": "../assets/img/portfolio/computador5.jpg"
+    },
+    {
+      "classificacao": "computadores",
+      "id": 20,
+      "name": "Notebook Gamer Lenovo",
+      "price": 4900,
+      "description": "Intel® Core™ i5 9300HF, 8GB, 1TB, Tela 15,6, GeForce® GTX 1050, Preto, Ideapad L340",
+      "picture": "../assets/img/portfolio/computador6.jpg"
+    },
+    {
+      "classificacao": "eletrodomesticos",
+      "id": 21,
+      "name": "Torradeira Lenoxx",
+      "price": 99,
+      "description": "Torradeira Lenoxx PTR 203 2 Fatias",
+      "picture": "../assets/img/portfolio/torradeira1.jpg"
+    },
+    {
+      "classificacao": "eletrodomesticos",
+      "id": 22,
+      "name": "Cafeteira Expresso Arno",
+      "price": 399,
+      "description": "Cafeteira Expresso Arno Nescafé Dolce Gusto",
+      "picture": "../assets/img/portfolio/cafeteira1.jpg"
+    },
+    {
+      "classificacao": "eletrodomesticos",
+      "id": 23,
+      "name": "Liquidificador Mondial",
+      "price": 109,
+      "description": "Liquidificador Mondial Turbo Preto com Filtro 3 Velocidades 500W",
+      "picture": "../assets/img/portfolio/liquidificador1.jpg"
+    },
+    {
+      "classificacao": "eletrodomesticos",
+      "id": 24,
+      "name": "Batedeira Philips Walita Daily",
+      "price": 160,
+      "description": "Batedeira Philips Walita Daily, 250W, 220V, Preto - RI7000/90",
+      "picture": "../assets/img/portfolio/batedeira1.jpg"
+    },
+    {
+      "classificacao": "eletrodomesticos",
+      "id": 25,
+      "name": "Mixer Philco",
+      "price": 1900,
+      "description": "Mixer Philco Maxxfit Spiralizer 350W, 3 Acessórios, 220V, Preto",
+      "picture": "../assets/img/portfolio/mixer1.jpg"
+    }
+>>>>>>> 8f9e6f0509b280158850db69a661d959adb5a0e7
   ]
