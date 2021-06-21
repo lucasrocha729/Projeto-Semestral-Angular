@@ -11,15 +11,15 @@ const db = mongoose.connect(URL, {
 const con = mongoose.connection;
 
 con.on('open', function(){
-    console.log('conectado ao servidor mongoDB');
+    console.log('Conectado ao servidor mongoDB, funcionando!!');
 });
 
 con.on('error', function(){
-    console.log('erro na conexão ao servidor mongoDB');
+    console.log('Erro na conexão ao servidor mongoDB');
 });
 
 con.on('close', function(){
-    console.log('desconectado ao servidor mongo');
+    console.log('Desconectado ao servidor mongo');
 });
 
 module.exports = db;

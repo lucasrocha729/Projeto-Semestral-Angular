@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Finalizada"
+    },
+    {
+        "id": 2,
+        "name": "Cancelada"
+    },
+    {
+        "id": 3,
+        "name": "Aguardando pagamento"
+    }
+]

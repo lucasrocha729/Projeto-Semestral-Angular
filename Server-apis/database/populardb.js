@@ -1,13 +1,49 @@
 require('./mongodb');
+
+const statusModel = require ('../models/statusModel');
+const status = require ('./status.json');
+
+const clientModel = require ('../models/clientModel');
+const client = require ('./client.json');
+
+const orderModel = require ('../models/orderModel');
+const order = require ('./order.json');
+
 const productModel = require ('../models/productModel');
-const data = require ('./products.json');
+const product = require ('./products.json');
+
+
 
 function loadData(){
+
+
+    statusModel.deleteMany({}, () => {
+        status.forEach(obj =>{
+            statusModel.create(obj);
+        })
+    }) 
+
+    clientModel.deleteMany({}, () => {
+        client.forEach(obj =>{
+            clientModel.create(obj);
+        })
+    })
+
+
+
     productModel.deleteMany({}, () => {
-        data.forEach(product =>{
+        product.forEach(product =>{
             productModel.create(product);
         })
     })
+
+    orderModel.deleteMany({}, () => {
+        order.forEach(obj =>{
+            orderModel.create(obj);
+        })
+    })
+
+
 }
 
 loadData();
