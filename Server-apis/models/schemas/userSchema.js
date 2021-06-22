@@ -1,11 +1,12 @@
 const mongoose = require('mongoose');
+const bcrypt = require('bcryptjs');
 
 const userSchema = new mongoose.Schema({
     id: {type: Number, required: [true, "id obrigatório para clientModel"]},
     senha: {
         type: String,
-        required: true,
-        select: false
+        select: true,
+        require: true
     },
     dtaCriacao: {
         type: Date,
@@ -32,8 +33,9 @@ const userSchema = new mongoose.Schema({
     }
 });
 
-usuarioSchema.pre('save', async function(next){
-    const hash = await bycryptjs.has(this.senha, 10);
+
+userSchema.pre('save', async function(next){
+    const hash = await bcrypt.hash(this.senha, 10);
     this.senha = hash;
     next();
 });

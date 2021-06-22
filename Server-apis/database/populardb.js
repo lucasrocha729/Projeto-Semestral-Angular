@@ -42,8 +42,6 @@ function loadData(){
             orderModel.create(obj);
         })
     })
-
-
 }
 
 loadData();
