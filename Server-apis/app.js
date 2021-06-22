@@ -12,7 +12,7 @@ var productRouter = require('./routes/productRouter');
 var contactRouter = require('./routes/contactRouter');
 var statusRouter = require('./routes/statusRouter');
 var orderRouter = require('./routes/orderRouter');
-var clientRouter = require('./routes/clientRouter');
+var loginRouter = require('./routes/loginRouter');
 // var buyRouter = require('./routes/buyRouter');
 
 var app = express();
@@ -34,7 +34,7 @@ app.use('/products', productRouter);
 app.use('/contact', contactRouter);
 app.use('/status', statusRouter);
 app.use('/order', orderRouter);
-app.use('/client', clientRouter);
+app.use('/auth', loginRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

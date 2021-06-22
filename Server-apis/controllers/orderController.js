@@ -11,13 +11,13 @@ class OrderController {
     }
     
     async list(req, res){
-        const result = await orderModel.find({});
+        const result = await orderModel.find({'userId': req.params.userId});
         res.status(200).json(result);
     }
 
     async findById(req, res){
-        const id = req.params.orderId;
-        const result = await orderModel.findOne({'id': id});
+        const {userId, id} = req.params;
+        const result = await orderModel.findOne({'id': id, 'userId': userId});
         res.status(200).json(result);
     }
 
