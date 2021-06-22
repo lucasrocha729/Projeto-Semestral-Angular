@@ -8,7 +8,7 @@ const orderSchema = new mongoose.Schema({
     id: {type: Number, required: [true, "id obrigatório para orderModel"]},
     date: { type: Date, default: Date.now },
     itens: [productSchema],
-    quantity: Number,
+    total: Number,
     client: clientSchema,
     statusId: {type: mongoose.Schema.Types.ObjectId, ref: 'status'} 
 });

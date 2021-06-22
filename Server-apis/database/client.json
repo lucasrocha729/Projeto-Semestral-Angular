@@ -4,9 +4,8 @@
     "id": 1,
     "firstName": "Bruno",
     "middleName": "Vasquez",
-    "nomeMeio": "Mattos",
     "email": "bruno@bigu.com",
-    "pagamento": {
+    "payment": {
       "name": "Bruno",
       "lastName": "Vasquez",
       "email": "bruno@bigu.com",

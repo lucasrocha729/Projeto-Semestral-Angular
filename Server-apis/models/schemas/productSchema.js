@@ -9,7 +9,8 @@ const productSchema = new mongoose.Schema({
         min: [0, "preço não pode ser menor que 0"],
         required: [true, "preço é obrigatório!"]},
     description: String,
-    picture: String
+    picture: String,
+    quantity: Number
 });
 
 module.exports = productSchema;
