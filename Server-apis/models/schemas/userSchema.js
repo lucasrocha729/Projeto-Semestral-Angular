@@ -12,7 +12,11 @@ const userSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     },
-    firstName: {type: String, required: [true, "Nome obrigatório"]},
+    token: {
+        type: String,
+        select: false
+    },    
+    firstName: String,
     lastname: String,
     middleName: String,
     login: String,
@@ -32,7 +36,6 @@ const userSchema = new mongoose.Schema({
         adress: String
     }
 });
-
 
 userSchema.pre('save', async function(next){
     const hash = await bcrypt.hash(this.senha, 10);

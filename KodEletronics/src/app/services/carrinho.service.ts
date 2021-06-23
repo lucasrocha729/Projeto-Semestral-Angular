@@ -13,7 +13,7 @@ export class CarrinhoService {
   constructor( private http: HttpClient ) { 
     this.itens=[]
   }
-  url = "http://localhost:3000/buy"
+  url = "http://localhost:3000/order"
 
   addCar(produto:Produto){
     this.itens.push(produto);
@@ -34,6 +34,7 @@ export class CarrinhoService {
     this.itens = [];
     return this.itens;
   }
+  
   salvar(produto: Produto[]): Observable<Produto[]> {
     return this.http.post<Produto[]>(this.url, produto)
   }

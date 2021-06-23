@@ -17,11 +17,13 @@ const product = require ('./products.json');
 function loadData(){
 
 
-    statusModel.deleteMany({}, () => {
-        status.forEach(obj =>{
-            statusModel.create(obj);
-        })
-    }) 
+    await statusModel.deleteMany({});
+    for (const objStatus of status) {
+      await statusModel.create(objStatus);
+    }
+    console.log("Carga de status concluída!");
+
+
 
     clientModel.deleteMany({}, () => {
         client.forEach(obj =>{

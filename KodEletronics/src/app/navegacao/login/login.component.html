@@ -1,12 +1,47 @@
-<section class="login-box">
-    <h2>Login</h2>
-    <form>
+
+    <form [formGroup]="loginForm" (ngSubmit)="logar()" class="login-box">
+      
       <div class="user-box">
-        <input type="text" name="" required="">
+      </div>
+      
+      <mat-error *ngIf="isInvalido">
+         O usuário e a senha são inválidos!
+      </mat-error>
+      <mat-form-field class="full-width-input">
+        <input matInput type="email" placeholder="E-mail" formControlName="email" value="lucasrocha@gmail.com" required>
+        <mat-error>
+          Por favor forneça um e-mail válido!
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field class="full-width-input">
+        <input matInput type="password" placeholder="Senha" formControlName="senha" value="senhanova" required>
+        <mat-error>
+          Por favor forneça uma senha válida!
+        </mat-error>
+      </mat-form-field>
+      <!-- <a id="btn-registrar" routerLink="/registrar">Registrar</a> -->
+      <p>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </p>
+      <button id="btn-logar" color="primary">Login</button>
+      <!-- <button id="btn-logar" mat-raised-button color="primary">Logar</button> -->
+    </form>
+
+
+
+
+<!-- <section class="login-box">
+    <h2>Login</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="logar()">
+      <div class="user-box">
+        <input type="text" formControlName="email" required>
         <label>Usuário</label>
       </div>
       <div class="user-box">
-        <input type="password" name="" required="">
+        <input type="password" formControlName="senha" required>
         <label>Senha</label>
       </div>
       <a routerLink="/administrador">
@@ -17,4 +52,4 @@
         Entrar
       </a>
     </form>
-</section>
+</section> -->

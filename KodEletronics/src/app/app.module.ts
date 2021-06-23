@@ -32,6 +32,7 @@ import { AtualizarProdutoComponent } from './administrador/atualizar-produto/atu
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule }   from '@angular/forms';
 import { CriarProdutoComponent } from './administrador/criar-produto/criar-produto.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -71,7 +72,8 @@ import { CriarProdutoComponent } from './administrador/criar-produto/criar-produ
     MatTableModule,
     HttpClientModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

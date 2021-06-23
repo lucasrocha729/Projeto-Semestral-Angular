@@ -168,3 +168,14 @@ html {
     }
   }
   
+  #btn-logar {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 5px;
+    letter-spacing: 4px;
+    background: #144B61;
+    color: #fff;
+    border-radius: 5px;
+  }
+  

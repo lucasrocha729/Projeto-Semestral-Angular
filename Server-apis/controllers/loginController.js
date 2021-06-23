@@ -5,16 +5,16 @@ const bcryptjs = require('bcryptjs');
 class LoginController {
 
     async login(req, res){
-        const{ email, senha} = req.body;
+        const{email, senha} = req.body;
         const user = await userModel.findOne({'email': email}).select('+senha');
-        if(!usuario){
+        if(!user){
             res.status(400).send({error: 'User não encontrado!'})    
         }
         if(!await bcryptjs.compare(senha, user.senha)){
             res.status(400).send({error: 'Senha inválida!'})
         }
         const token = auth.gerarToken(user)
-        res.status(201).json({id: user.id, nome: user.name, email: user.email, token: user.token});
+        res.status(201).json({id: user.id, nome: user.firstName, email: user.email, token: user.token});
     }
 
     async create(req, res){
@@ -29,7 +29,7 @@ class LoginController {
         const result = await userModel.create(user);
         const token = auth.gerarToken(result);
         
-        res.status(201).json({id: user.id, nome: user.nome, email: user.email, token: user.token}); 
+        res.status(201).json({id: user.id, nome: user.firstName, email: user.email, token: user.token}); 
     }
     
     async list(req, res){
